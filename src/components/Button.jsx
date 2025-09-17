@@ -4,6 +4,8 @@ import { div } from 'three/tsl'
 const Button = ({text, className, id}) => {
   return (
     <a
+
+    href='#work'
     onClick={(e) => {
 
       e.preventDefault()
